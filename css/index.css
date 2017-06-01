@@ -1,0 +1,424 @@
+body{
+	margin: 0;
+	min-height: 100vh;
+}
+h1{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 50px;
+	margin: 0;
+}
+h2{
+	font-size: 24px;
+	font-family: 'Varela Round', sans-serif;
+	margin: 0;
+}
+h3{
+	font-size: 30px;
+	font-family: 'Varela Round', sans-serif;
+	margin: 0;
+}
+h4{
+	font-size: 45px;
+	font-family: 'Varela Round', sans-serif;
+	margin: 0;
+}
+h5{
+	font-size: 18px;
+	font-family: 'Varela Round', sans-serif;
+	margin: 0;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 170%;
+	text-align: justify;
+}
+header{ 
+	margin: auto;
+	background: #006837;
+    width: 100%;
+}
+
+
+/*botones grandes*/
+
+.buttonproductos{
+ 	border :  white solid 2px;
+ 	border-radius: 20px;
+ 	padding: 3px 20px;
+}
+.buttongrande{
+	border: transparent;
+	display: inline-block;
+	width: 200px;
+	border-radius: 25px;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding: 14px 0;
+	margin: 10px 0;
+	transition: .8s;
+}
+.buttongrande:hover{
+	transform: scale(0.9);
+}
+.buttonpeq{	
+	align-content: flex-end;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 15px; 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 3px 20px;
+	text-align: center;
+	color: white;
+	float: right;
+	transition: .8s;
+}
+.buttonpeq:hover{
+	transform: scale(0.9);
+}
+.colorfondoverde{
+	background-color: #006837;
+}
+.colorfondoazul{
+	background-color: #1b676b;
+}
+.colorfondoverdeagua{
+	background-color: #90c9aa;
+}
+.colorfondogris{
+	background-color:#424a3f
+}
+.colorfondoblanco{
+	background-color:white;
+}
+.colorfondonegro{
+	background-color:black;
+}
+.colorletraverde{
+	color: #006837;
+}
+.colorletraazul{
+	color: #1b676b;
+}
+.colorletraverdeagua{
+	color: #90c9aa;
+}
+.colorletragris{
+	color: #424a3f;
+}
+.colorletragris2{
+	color: #333333;
+}
+.colorletrablanco{
+	color: white;
+}
+.contenedor{
+	width: 85%;
+	margin: auto;
+}
+.contenedorpeq{
+	text-align: center;
+	padding: 8%;
+}
+.contenedormed{
+	text-align: center;
+	width: 50em;
+	margin: auto;
+}
+.tamañoletraextragrande{
+	font-size: 25px;
+}
+.tamañoletragrande{
+	font-size: 22px;
+}
+.tamañoletramedio{
+	font-size: 16px;
+}
+.tamañoletrachico{
+	font-size: 14px;
+}
+.tamañoletraextrachico{
+	font-size: 10px;
+}
+.bold{
+	font-weight: bold;
+}
+#c-slider{
+	position: relative;
+	overflow: hidden;
+}
+#slider{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 400%; /*definir el ancho por cada imagen +100%*/
+}
+section{
+	width: 100%
+}
+#slider .img_slider{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#btn-prev, #btn-next{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+#btn-prev{
+	left: 0;
+}
+#btn-next{
+	right: 0;
+}
+section .contenedorpeq{
+	position: absolute;
+	margin: 5% 14% 0;
+	padding: 0;
+	width: 100%;
+}
+#portada h3{
+	font-size: 3em;
+}
+
+/*header general*/
+.index .logotipo{
+	margin: 0;
+	padding: 15px 0 0 60px ;
+	position: relative;
+	display: inline-block;
+}
+.index .menu{
+	display: inline-block;
+	position: absolute;
+	right: 60px; 
+}
+.index .buttonproductos:hover {
+	background-color: #424a3f;
+	color:white;
+}
+.index .menu ul{
+	margin: 15px 0;
+}
+.index .menu li{
+	display: inline-block;	
+	margin: 0 25px;
+}
+.index .menu a{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: white;
+}
+.index .menu a:hover{
+	color:white;
+	transition: .5s;
+}
+
+/*hoja uno - index*/
+
+/*primera seccion - cabecera*/
+
+.index .portada .contenedorpeq{
+	text-align: left;
+}
+
+.buttonproductos{
+ 	border :  #424a3f solid 2px;
+ 	border-radius: 20px;
+ 	padding: 3px 20px
+}
+
+/*segunda seccion - Quines somos*/
+.index .qsomos{
+	display: flex;
+}
+
+.index .qsomos .seccion2{
+	background-image: url('../recursos/index/quienessomos-13.png');
+	background-repeat: no-repeat;	
+	background-position: right;
+    background-position-y: 40px;
+    display: flex;
+    
+}
+
+.index .qsomos .imagen{
+	margin: 2em 3em 0 10em;
+	display: flex;
+	
+}
+.index .positionder{
+	text-align: end;
+}
+
+/*tercera seccion - nuestros productos*/
+
+.index .tipoproductos{
+	display: flex;
+}
+.index .bioseguridad, .index .materialvidrio, .index .tomamuestra {
+	flex-grow: 1;
+	height: 22em;
+}
+.index .imagproducto{
+	float: right;
+}
+.index .nuestrosproductos2{ 	
+	background-image: url('../recursos/index/nuestrosproductos-13.png');
+	background-repeat: no-repeat;
+	margin: 5em 0;
+}
+
+.index .qsomos .contenedorpeq{
+	padding: 5% 7% 0;
+}
+
+.index .nuestrosproductos2 .contenedorpeq{
+	padding: 4% 10%;
+}
+.index .nuestrosproductos2 .contenedorpeq{
+	padding: 4% 10%;
+}
+.index .nuestrosproductos2 .buttongrande{
+	margin: 0 2em;
+}
+
+/*cuarta seccion - clientes confian en nosotros*/
+
+.banner{
+	
+	margin: auto;
+	position: relative;
+
+}
+.banner1{
+	position: absolute;
+	animation-name: oscurecer;
+	animation-duration:10s;
+	animation-iteration-count: infinite;
+}
+.banner2{
+	margin: 0
+}
+.banner1 h1{
+	animation-duration:10s;
+	animation-name:oscurecer;
+	animation-iteration-count: infinite;
+}
+
+@keyframes oscurecer{
+	0%{
+		opacity: 1;
+	}
+	15%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	60%{
+		opacity: 1
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes aclarar{
+	0%{
+		opacity: 0;
+	}
+	15%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+.index .clientesconfian{
+	display: flex;
+	background-image: url('../recursos/index/confiannosotros-13.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-position-y: 2em;
+}
+.index .clientesconfian .contenedormed{
+	margin: 4em auto 0;
+	padding: 1% 3% 0 4%;
+}
+.index .clientesconfian p{
+	text-align: center;
+}
+.index .porcentaje{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18em;
+	margin: 0.2em 0 0 0;
+	text-align: center;
+	font-weight: bold;
+	line-height: 50%;	
+}
+.index .subporcentaje{
+	font-size: 0.6em;
+}
+/*septima seccion - solicita tu cotizacion*/
+
+.index .solicitacotizacion{
+	background-image: url('../recursos/index/solicitucotizacion-13.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.index .solicitacotizacion .buttongrande{
+	height: 75px;
+	width: 320px;
+	font-size: 30px;
+	border-radius: 75px;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+/*octava seccion - nuestras marcas*/
+
+.nuestrasmarcas{
+	background-image: url('../recursos/index/nuestrasmarcas-13.png');
+	background-repeat: no-repeat;
+	padding: 3em 0;
+}
+.nuestrasmarcas .contenedor{
+	display: flex;
+	justify-content: space-around;
+	margin: 3em auto 1em;
+}
+
+/*novena seccion - footer*/
+
+.footerpagina .contenedor{
+	display: flex;
+	justify-content: space-around;
+	padding: 5em 0;
+}
+.footerpagina a{
+	text-decoration: none;
+}
+.footerpagina p{
+	font-size: 12px;
+	color: white;
+	line-height: 200%;
+}
